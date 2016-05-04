@@ -28,7 +28,7 @@
 <div id = "content">
 
     <div id = "text">
-        <p> Much content</p>
+        <p> Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, Much content, </p>
     </div>
 
     <div id = "pic">
