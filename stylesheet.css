@@ -12,6 +12,7 @@
 
 #content{
     width:500px;
+    border-bottom: dotted;
 
 }
 
@@ -39,7 +40,7 @@ img {
     height: 400px;
     width:50%;
     float: left;
-    border: dotted;
+
 }
 
 #form{
@@ -58,4 +59,9 @@ a{
 
     border-bottom: dotted;
 
+}
+
+p, h1{
+    font-family: serif;
+    color: blue;
 }
