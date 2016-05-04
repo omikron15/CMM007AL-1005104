@@ -39,7 +39,7 @@
         <label>Enter Title:</label>     <input type="text" name="Title_box" required> <br>
         <label>Enter Summary:</label>   <input type="text" name="Summary_box" required> <br>
         <label>Category:</label>
-            <select name="Category:">
+            <select name="Category:" required>
                 <option value=""> Select Category </option>
                 <option value="Work">Work</option>
                 <option value="Family">Family</option>
