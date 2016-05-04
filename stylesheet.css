@@ -1,6 +1,17 @@
 img {
-
     height: 200px;
+}
 
+#pic {
 
+    height: 400px;
+    float: right;
+    border: dotted;
+}
+
+#text {
+
+    height: 400px;
+    float: left;
+    border: dotted;
 }
