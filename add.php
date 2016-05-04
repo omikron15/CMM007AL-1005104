@@ -34,7 +34,7 @@
         ?>
 
     <div id = "form">
-        <form action="<? {$_SERVER['PHP_SELF']}?>" method="post">
+        <form action="<?$_SERVER['PHP_SELF']?>" method="post">
 
         <label>Enter Title:</label>     <input type="text" name="Title_box" required> <br>
         <label>Enter Summary:</label>   <input type="text" name="Summary_box" required> <br>
