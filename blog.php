@@ -27,6 +27,24 @@
 
 <div id = "content">
 
+<?php
+include("connection.php");
+
+$sql_query = "SELECT * FROM blogview";
+$result = $db->query($sql_query);
+while ($row = $result->fetch_array())
+{
+
+    $title = $row['entryTitle'];
+    $summary = $row['entrySummary'];
+    $category = $row['category'];
+    $submitter = $row['submitter'];
+
+    echo "{$title}";
+}
+
+?>
+
     <div id = "blogtext1">
         <p>Today at work by Adam</p> <br>
         <p>Work</p> <br>
