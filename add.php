@@ -17,10 +17,10 @@
 
 <div id = "navigation">
 
-    <a href="blog.php">All Blog Items</a>
-    <a href="blog.php">Work Items</a>
-    <a href="blog.php">University Items</a>
-    <a href="blog.php">Family Items</a>
+    <a href="blog.php?Cat=All">All Blog Items</a>
+    <a href="blog.php?Cat=Work">Work Items</a>
+    <a href="blog.php?Cat=University">University Items</a>
+    <a href="blog.php?Cat=Family">Family Items</a>
     <a href="add.php">Insert Blog Items</a>
 
 </div>
