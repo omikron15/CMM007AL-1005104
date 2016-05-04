@@ -43,6 +43,7 @@ else if ($cat == "University"){
 }
 else if ($cat == "Family"){
     $sql_query = "SELECT * FROM blogview WHERE category='Family' ";
+    header("Family");
 }
 
 $result = $db->query($sql_query);
@@ -63,11 +64,6 @@ while ($row = $result->fetch_array())
     </div>
 
     ";
-
-
-
-
-
 
 }
 
