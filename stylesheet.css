@@ -1,24 +1,24 @@
 #header{
 
     width:500px;
-    border: dotted;
+
 }
 
 #navigation{
 
     width:500px;
-    border: dotted;
+
 }
 
 #content{
     width:500px;
-    border: dotted;
+
 }
 
 #footer{
     clear: both;
     width:500px;
-    border: dotted;
+
 }
 
 img {
@@ -52,4 +52,9 @@ a{
 
     background-color: crimson;
 
+}
+
+#blogtext{
+    border: dashed;
+    padding: 5%;
 }
