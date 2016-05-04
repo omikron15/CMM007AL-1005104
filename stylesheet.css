@@ -16,7 +16,7 @@ img {
 }
 #header{
 
-    width:600px;
+    width:500px;
     border: dotted;
 }
 
@@ -33,5 +33,5 @@ img {
 
 #footer{
     clear: both;
-    width:550px;
+    width:500px;
 }
