@@ -54,7 +54,21 @@ while ($row = $result->fetch_array())
     $category = $row['category'];
     $submitter = $row['submitter'];
 
-    echo "{$title} <br>";
+    echo "
+
+     <div id = 'blogtext1'>
+        <p>{$title} by {$submitter}</p> <br>
+        <p>{$category}</p> <br>
+        <p>{$summary}</p> <br>
+    </div>
+
+    ";
+
+
+
+
+
+
 }
 
 ?>
