@@ -23,6 +23,8 @@
 img {
     width: 25%;
     position: absolute;
+    margin: auto;
+
 }
 
 #pic {
