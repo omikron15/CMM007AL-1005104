@@ -17,11 +17,11 @@
 
 <div id = "navigation">
 
-    <a href="blog.html">All Blog Items</a>
-    <a href="blog.html">Work Items</a>
-    <a href="blog.html">University Items</a>
-    <a href="blog.html">Family Items</a>
-    <a href="add.html">Insert Blog Items</a>
+    <a href="blog.php">All Blog Items</a>
+    <a href="blog.php">Work Items</a>
+    <a href="blog.php">University Items</a>
+    <a href="blog.php">Family Items</a>
+    <a href="add.php">Insert Blog Items</a>
 
 </div>
 
@@ -30,7 +30,21 @@
 <?php
 include("connection.php");
 
-$sql_query = "SELECT * FROM blogview";
+$cat = $_GET["Cat"];
+
+if ($cat == "All"){
+    $sql_query = "SELECT * FROM blogview";
+}
+else if ($cat == "Work"){
+    $sql_query = "SELECT * FROM blogview WHERE category='Work' ";
+}
+else if ($cat == "University"){
+    $sql_query = "SELECT * FROM blogview WHERE category='University' ";
+}
+else if ($cat == "Family"){
+    $sql_query = "SELECT * FROM blogview WHERE category='Family' ";
+}
+
 $result = $db->query($sql_query);
 while ($row = $result->fetch_array())
 {
