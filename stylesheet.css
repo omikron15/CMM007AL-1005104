@@ -18,6 +18,7 @@
 #footer{
     clear: both;
     width:500px;
+    border: dotted;
 }
 
 img {
