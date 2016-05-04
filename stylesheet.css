@@ -22,7 +22,7 @@
 
 img {
     width: 150px;
-    position: relative;
+    position: absolute;
 }
 
 #pic {
