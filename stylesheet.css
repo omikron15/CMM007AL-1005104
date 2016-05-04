@@ -54,7 +54,8 @@ a{
 
 }
 
-#blogtext{
-    border: dashed;
+#blogtext1, #blogtext2{
+
+    border-bottom: dotted;
 
 }
