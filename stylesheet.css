@@ -15,3 +15,7 @@ img {
     float: left;
     border: dotted;
 }
+
+#footer{
+    clear: both;
+}
