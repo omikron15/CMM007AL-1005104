@@ -65,7 +65,7 @@
          echo "Error:" . $sql . "<br>" . mysqli_error($db);
      }
 
-        header("location: blog.php");
+        header("location: blog.php?Cat=All");
     }
     else {
         header("location: index.php");
