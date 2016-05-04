@@ -40,7 +40,7 @@
         <label>Enter Summary:</label>   <input type="text" name="Summary_box" required> <br>
         <label>Category:</label>        <input type="text" name="Category_box" required> <br>
         <label>Submitted By:</label>    <input type="text" name="Submit_box"> <br>
-        <input id = button type="submit" value="submit">
+        <input id = button type="submit" value="Submit">
 
         </form>
 
