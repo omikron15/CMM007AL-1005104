@@ -54,7 +54,7 @@ while ($row = $result->fetch_array())
     $category = $row['category'];
     $submitter = $row['submitter'];
 
-    echo "{$title}";
+    echo "{$title} <br>";
 }
 
 ?>
