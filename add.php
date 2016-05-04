@@ -39,6 +39,14 @@
         <label>Enter Title:</label>     <input type="text" name="Title_box" required> <br>
         <label>Enter Summary:</label>   <input type="text" name="Summary_box" required> <br>
         <label>Category:</label>        <input type="text" name="Category_box" required> <br>
+
+        <select name="Category:">
+            <option value=""> Select Category </option>
+            <option value="Work">Work</option>
+            <option value="Family">Family</option>
+            <option value="University">University</option>
+        </select>
+
         <label>Submitted By:</label>    <input type="text" name="Submit_box"> <br>
         <input id = button type="submit" value="Submit">
 
